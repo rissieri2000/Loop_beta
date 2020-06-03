@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: helvetica;
+	color: #fff;
+	box-sizing: border-box;
+
+}
+
+body{
+	background: url(../image/fodo.jpg);	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1{
+	font-size: 3em;
+	text-shadow: 10px 10px 10px rgb(0,0,0);
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #8E8C89;
+}
+
+a:hover{
+	color: #fff;
+}
+
+li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+header,nav,footer{
+	background: #CC0B00;
+	margin: 20px auto;
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+}
+
+header{
+	border-radius: 20px 20px 0 0;
+}
+
+nav{
+	background: #000;
+}
+
+footer{
+	background: #4955FF;
+}
+
+#contenido{
+	background: rgba(255,255,255,.4);
+	margin: 20px auto;
+	width: 80%;
+	padding: 20px;
+}
+
+aside,section{
+	display: inline-block;
+	width: 64%;
+	margin: 10px;
+	vertical-align: top;
+	text-align: center;
+	padding: 10px;
+}
+
+aside{
+	width: 32%;
+	background: #434343;
+	min-height: 200px;
+}
+
+section{
+	background: #B945EB;
+	min-height: 200px;
+}
+
+
+.art{
+	background: #FF362A;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+#album1,#album2,#album3,#album4{
+	background: rgba(255,255,255,.5);
+	width: 80%;
+	margin: 20px auto;
+	min-height: 200px;
+}
+
+h2{
+	font-size: 2em;
+	color: #000;
+	text-align: center;
+}
+
+.ima,.canciones{
+	display: inline-block;
+	margin: 20px;
+	width: 50%;
+	vertical-align: top;
+	padding: 10px;
+}
+
+.ima{
+	width: 40%;
+}
+
+.canciones>h3{
+	color: #000;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.canciones{
+	text-align: center;
+}
